@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #121212;
+  color:aliceblue
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+
+}
+
+.tabcontent{
+  margin-top: 50px;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tabcontent h3 {
+  color: #4CAF50;
+  margin-top: 20px;
+}
+
+.tabcontent h3:first-child {
+  margin-top: 0;
+}
+.tablinks.active {
+  background-color: #3e8e41;
+}
+.tab {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+p{
+  text-align: center;
+}
+.tab button {
+  margin: 0 10px;
+}
+#scp {
+  width: 3rem;
+  margin-right: 70px;
+}
+
+#scp1 {
+  margin-left: 0.5rem;
+}
+
+.tablinks {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.tab {
+  margin-top: 3rem;
+}
+
+.tablinks.active:hover {
+  background-color: #135b23;
+}
+
+
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
+
+button {
+  background-color: #4CAF50; /* цвет фона */
+  border: none; /* без границы */
+  color: white; /* цвет текста */
+  padding: 10px 20px; /* отступы внутри кнопки */
+  text-align: center; /* центрируем текст */
+  text-decoration: none; /* убираем подчеркивание */
+  display: inline-block; /* убираем лишние отступы */
+  font-size: 16px; /* размер шрифта */
+  margin: 5px; /* отступ от других элементов */
+  cursor: pointer; /* меняем курсор при наведении */
+  border-radius: 5px; /* скругляем углы */
+}
+
+button:hover {
+  background-color: #3e8e41; /* изменяем цвет фона при наведении */
+}
+
+button:active {
+  background-color: #135b23; /* изменяем цвет фона при нажатии */
+}
+
+#scp{
+  width: 50px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+#scp1{
+  margin-left: 15px;
+}
